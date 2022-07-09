@@ -39,7 +39,7 @@ body {
     /* margin: 0 0 2.0em; */
     border: black solid 1px;
     margin: 0 0.5em 2.0em 0.5em;
-    float: left;
+    /* float: left; */
     position: relative;
     text-align: center;
     text-shadow: 1px 1px 1px #a79209;
@@ -50,7 +50,7 @@ body {
     width: 900px;
 }
 
-nav {
+.menu {
     float: right;
     width: 250px;
     position: relative;
@@ -60,24 +60,23 @@ nav {
     /* border-radius: 0.6em; */
     margin-left: 5px;
     list-style: none;
-    margin-top: -30%;
-    right: 3em;
+    margin-top: -70%;
+    right: 1em;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
 
 nav ul.socialMedia {
-    line-height: 0;
-    margin-top: auto;
-    position: relative;
-    left: -3.5em;
+    /* line-height: 0; */
+    /* margin-top: 0em; */
+    /* position: static; */
+    /* left: -3.5em; */
 }
-
 
 nav ul li {
     /* right: 3em; */
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
     padding:1px 1px 1px 1px;
     border: black solid 1px;
     background-color: white;
@@ -87,7 +86,7 @@ nav ul li {
 }
 
 .menu {
-    float: right;
+    /* float: right; */
     list-style: none;
     display: inline-block;
     /* right: 3em; */
@@ -96,8 +95,11 @@ nav ul li {
 .socialMedia {
     float: right;
     list-style: none;
-    display: inline-block;
-    /* right: 5em; */
+    display: block;
+    margin-top: -30em;
+    position: relative;
+    right: 6em;
+    line-height: 0;
 }
 
 .menu a:hover, a:visited, a:link, a:active
@@ -123,7 +125,7 @@ nav ul li {
 
 .side a:hover {
     background-color: gray;
-    background-position: -100% 0;
+    /* background-position: -100% 0; */
     border-radius: 4px;
     color: #fff;
     padding: 5px 5px 5px 5px;
@@ -141,12 +143,8 @@ footer {
 
 .donate {
     font: 20px "Helvetica";
-    display: inline-block;
-    margin: 20px;
-    position: relative;
     text-decoration: none;
     background: white;
-    border-radius: 4px;
     color: #fff;
     background-color: gray;
     border-radius: 4px;
@@ -156,9 +154,10 @@ footer {
     border: black solid 1px;
     border-width: 3px 5px;
     padding:1px 1px 1px 1px;
-    /* margin-top: auto; */
-    /* position: relative; */
-    left: 2.9em;
+    margin-top: -13em;
+    position: relative;
+    float: right;
+    left: -4.7em;
 }
 
 .donate a:hover {
@@ -173,9 +172,10 @@ footer {
 
 .copy {
     color: #a79209;
-    position: relative;
-    margin-left: 30px;
-    margin-top: 2.5em;
+    /* position: relative; */
+    /* float: right; */
+    margin-top: -10em;
+    margin-right: 2.5em;
     text-shadow: 1px 1px 1px black;
 }
 
