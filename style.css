@@ -1,0 +1,185 @@
+body {
+    background-image: url(./assets/Background.jpg);
+    padding: 0;
+    max-width: 950px;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.catsPage {
+    display: inline-block;
+    margin: 0;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.text {
+    color: white;
+    float: left;
+    line-height: 2.9;
+    width: 300px;
+    border: 3px solid #a79209;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    background-image: url(./assets/BackLogo.jpg)
+}
+
+.mainImage {
+    float: right;
+    border: 3px solid #a79209;
+    padding:1px;
+    line-height: 0;
+}
+
+.panel {
+    background-color: rgba(252, 251,243,0.7);
+    display: inline-block;
+    box-shadow: 1px 1px 5px #777;
+    /* margin: 0 0 2.0em; */
+    border: black solid 1px;
+    margin: 0 0.5em 2.0em 0.5em;
+    float: left;
+    position: relative;
+    text-align: center;
+    text-shadow: 1px 1px 1px #a79209;
+    color: black;
+}
+
+#main {
+    width: 900px;
+}
+
+nav {
+    float: right;
+    width: 250px;
+    position: relative;
+    /* margin: 0 0.5em 2.0em 0.5em; */
+    padding: 1.0em;
+    /* border: #ccc solid 1px; */
+    /* border-radius: 0.6em; */
+    margin-left: 5px;
+    list-style: none;
+    margin-top: -30%;
+    right: 3em;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+nav ul.socialMedia {
+    line-height: 0;
+    margin-top: auto;
+    position: relative;
+    left: -3.5em;
+}
+
+
+nav ul li {
+    /* right: 3em; */
+    margin-bottom: 5px;
+    padding:1px 1px 1px 1px;
+    border: black solid 1px;
+    background-color: white;
+    box-shadow: 1px 1px 5px #777;
+    border-radius: 5px;
+    border-width: 3px 5px;
+}
+
+.menu {
+    float: right;
+    list-style: none;
+    display: inline-block;
+    /* right: 3em; */
+}
+
+.socialMedia {
+    float: right;
+    list-style: none;
+    display: inline-block;
+    /* right: 5em; */
+}
+
+.menu a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: #a79209;
+    display: inline-block;
+    background: white;
+
+}
+
+.panel a:hover {
+    background-color: gray;
+    padding: 0px 1px 0px 1px;
+    -webkit-transition: 300ms;
+    transition: 300ms;
+}
+
+.menu a:hover {
+    background-color: gray;
+    color: #fff;
+}
+
+.side a:hover {
+    background-color: gray;
+    background-position: -100% 0;
+    border-radius: 4px;
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+    text-shadow: 1px 1px 5px #666;
+    -webkit-transition: 500ms;
+    transition: 500ms;
+}
+
+footer {
+    float: right;
+    display: block;
+    right: 5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.donate {
+    font: 20px "Helvetica";
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    text-decoration: none;
+    background: white;
+    border-radius: 4px;
+    color: #fff;
+    background-color: gray;
+    border-radius: 4px;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 5px #777;
+    /* margin: 0 0 2.0em; */
+    border: black solid 1px;
+    border-width: 3px 5px;
+    padding:1px 1px 1px 1px;
+    /* margin-top: auto; */
+    /* position: relative; */
+    left: 2.9em;
+}
+
+.donate a:hover {
+    background-color: gray;
+    background-position: -100% 0;
+    border-radius: 4px;
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+}
+
+.copy {
+    color: #a79209;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 2.5em;
+    text-shadow: 1px 1px 1px black;
+}
+
+a {
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+}
